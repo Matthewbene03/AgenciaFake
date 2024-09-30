@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    color: black;
+    font-family: "Roboto Mono", monospace;
+}
+
+@media screen and (max-width: 425px) {
+    .navMenu{
+        background-color: white;
+        height: 100px;
+        width: 100%;
+        margin-bottom: 70px;
+    }
+
+    .logo{
+        text-align: center;
+    }
+
+    #logoTitulo{
+        font-family: "Lobster", sans-serif;
+        color: #180f4a;
+        text-decoration: none;
+        font-size: 30px;
+        padding: 20px 16px;
+    }
+
+    .opcoes{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 1089px) {
+    .navMenu{
+        background-color: white;
+        height: 100px;
+        width: 100%;
+        margin-bottom: 150px;
+    }
+    
+    .logo{
+        /*border: 2px solid red;*/
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .opcoes{
+        /*border: 2px solid red;*/
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .opcoes a{
+        color: #180f4a;
+        text-decoration: none;
+        padding: 20px 16px;
+        font-size: 20px;
+    }
+    
+    .opcoes a:hover{
+        border-top: 3px solid #180f4a;
+        color: #ff2978;
+    }
+    
+    #logoTitulo{
+        font-family: "Lobster", sans-serif;
+        color: #180f4a    ;
+        text-decoration: none;
+        font-size: 40px;
+        padding: 20px 16px;
+    }
+}
+
+@media screen and (min-width: 1090px) {
+    .navMenu{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: white;
+        height: 100px;
+        width: 100%;
+    }
+    
+    .logo{
+        flex:20%;
+        /*border: 2px solid red;*/
+        margin-left: 10%;
+        /* padding: 20px; */
+        text-align: left;
+    }
+    
+    .opcoes{
+        flex: 60%;
+        /*border: 2px solid red;*/
+        text-align: right;
+        padding: 20px;
+    }
+    
+    .opcoes a{
+        color: #180f4a;
+        text-decoration: none;
+        padding: 20px 16px;
+        font-size: 20px;
+    }
+    
+    .opcoes a:hover{
+        border-top: 3px solid #180f4a;
+        color: #ff2978;
+    }
+    
+    #logoTitulo{
+        font-family: "Lobster", sans-serif;
+        color: #180f4a    ;
+        text-decoration: none;
+        font-size: 30px;
+        padding: 20px 16px;
+    }
+    
+    #faleConosco{
+        color: white;
+        margin-left: 50px;
+        margin-right: 10%;
+        background-color: #180f4a    ;
+        border-radius: 10px;
+        padding: 7px 15px;
+    }
+    
+    #faleConosco:hover{
+        background-color: #ff2978;
+        border-top: none;
+    }
+}

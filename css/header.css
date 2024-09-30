@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    color: black;
+    font-family: "Roboto Mono", monospace;
+}
+
+@media screen and (max-width: 425px) {
+
+    .header{
+        width: 100%;
+        height: 800px;
+    }
+    
+    .headerTexto{
+        width: 100%;
+        height: 50%;
+    }
+    
+    .headerTexto p{
+        color: grey;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #textH2_primeiro{
+        color: #180f4a;
+        text-align: center;
+        padding: 10px;
+        letter-spacing: 13px;
+        font-size: 20px 
+    }
+    
+    #textH2_segundo{
+        line-height: 80px;
+        color: #180f4a;
+        text-align: center;
+        padding: 10px;
+        font-size: 60px;
+        font-weight: bold;
+    }
+    
+    .headerImg{
+        width: 100%;
+        height: 50%;
+        text-align: center;
+    }
+    
+    .headerImg img{
+        width: 90%;
+    }
+    
+    #contrateAgora{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:320px){
+    .headerTexto{
+        margin-bottom: 40px;
+    }
+
+    .headerImg img{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width:425px){
+    .headerTexto{
+        margin-bottom: 40px;
+    }
+
+    .headerImg img{
+        width: 70%;
+    }
+}
+
+
+
+@media screen and (min-width: 425px) and (max-width: 1089px) {
+    
+    .header{
+        width: 100%;
+        height: 800px;
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+    
+    .headerTexto{
+        width: 100%;
+        height: 45%;
+        text-align: center;
+    }
+    
+    .headerTexto p{
+        color: grey;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #textH2_primeiro{
+        color: #180f4a;
+        text-align: left;
+        padding: 10px;
+        letter-spacing: 13px;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    #textH2_segundo{
+        line-height: 80px;
+        color: #180f4a;
+        text-align: left;
+        padding: 10px;
+        font-size: 60px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .headerImg{
+        width: 100%;
+        height: 55%;
+        text-align: center;
+    }
+    
+    .headerImg img{
+        width: 65%;
+        height: 100%;
+    }
+    
+    #contrateAgora{
+        color: white;
+        text-decoration: none;
+        background-color: #ff2978;
+        padding: 20px 16px;
+        border-radius: 7px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    #contrateAgora:hover{
+        background-color: #180f4a;
+    } 
+}
+
+
+@media screen and (min-width: 1090px) {
+    .header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    
+        width: 80%;
+        height: 600px;
+        margin-top: 40px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 40px;
+    }
+    
+    .headerTexto{
+        padding-top: 150px;
+        flex: 50%;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .headerTexto p{
+        color: grey;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    
+    #textH2_primeiro{
+        color: #180f4a;
+        text-align: left;
+        padding: 10px;
+        letter-spacing: 13px;
+        font-size: 20px 
+    }
+    
+    #textH2_segundo{
+        line-height: 80px;
+        color: #180f4a;
+        text-align: left;
+        padding: 10px;
+        font-size: 60px;
+        font-weight: bold;
+    }
+    
+    .headerImg{
+        flex: 50%;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    
+    .headerImg img{
+        width: 80%;
+    }
+    
+    #contrateAgora{
+        color: white;
+        text-decoration: none;
+        background-color: #ff2978;
+        padding: 20px 16px;
+        border-radius: 7px;
+        text-transform: uppercase;
+    }
+    
+    #contrateAgora:hover{
+        background-color: #180f4a;
+    }
+}
